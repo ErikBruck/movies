@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.movie-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.movie-form input[type="text"],
+.movie-form input[type="number"],
+.movie-form input[type="url"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.movie-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.movie-form button:hover {
+  background-color: #45a049;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.movie-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.movie-item .movie-details {
+  padding: 10px;
+  text-align: left;
+}
+
+.movie-item .movie-details h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.movie-item .movie-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.movie-item .movie-actions {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.movie-item button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.movie-item button:hover {
+  background-color: #d32f2f;
+}
