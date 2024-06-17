@@ -1,5 +1,4 @@
-﻿// Models/Movie.cs
-namespace veeb.models
+﻿namespace veeb.models
 {
     public class Movie
     {
@@ -8,14 +7,16 @@ namespace veeb.models
         public double Rating { get; set; }
         public int Year { get; set; }
         public string PosterUrl { get; set; }
+        public string Director { get; set; }
 
-        public Movie(int id, string name, double rating, int year, string posterUrl)
+        public Movie(int id, string name, double rating, int year, string posterUrl, string director)
         {
             Id = id;
             Name = name;
             Rating = rating;
             Year = year;
             PosterUrl = posterUrl;
+            Director = director;
         }
     }
 }
